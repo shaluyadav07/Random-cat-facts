@@ -68,7 +68,7 @@ async function getFacts(){
         }
         catch(e){
             console.log("error - ",e);
-            return "NO fact found";
+            return "No fact found";
         }
         console.log("hii there these are yours facts");
     }
